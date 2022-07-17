@@ -3,7 +3,7 @@ package level1.diff1;
 import java.io.*;
 import java.util.*;
 
-public class Q1000 {
+public class BOJ1000 {
     public static void main(String[] args) throws IOException {
 //        bufferedReader 선언
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

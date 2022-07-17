@@ -3,15 +3,21 @@ package level1.diff1;
 import java.io.*;
 import java.util.*;
 
-public class Q1001 {
+public class BOJ1330 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String input = br.readLine();
+        String line = br.readLine();
 
-        StringTokenizer st = new StringTokenizer(input);
+        StringTokenizer st = new StringTokenizer(line);
         int a = Integer.parseInt(st.nextToken());
         int b = Integer.parseInt(st.nextToken());
 
-        System.out.println(a - b);
+        if (a > b){
+            System.out.println('>');
+        }else if (a < b){
+            System.out.println('<');
+        }else{
+            System.out.println("==");
+        }
     }
 }
