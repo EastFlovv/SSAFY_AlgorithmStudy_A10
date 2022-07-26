@@ -3,7 +3,7 @@ package level2.diff2p;
 import java.io.*;
 import java.util.*;
 
-public interface BOJ10816 {
+public class BOJ10816 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int loop = Integer.parseInt(br.readLine());
