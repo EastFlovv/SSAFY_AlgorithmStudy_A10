@@ -38,8 +38,7 @@ public class BOJ1654 {
 			}
 			
 		}
-		
-		
+
 		int maxcount = 0;
 		int mincount = 0;
 		
